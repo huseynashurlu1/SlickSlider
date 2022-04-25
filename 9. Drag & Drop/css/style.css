@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img{
+    width: 100%;
+}
+
+.slick-dots li{
+    background-color: red !important;
+    border-radius: 100%;
+}
+
+.slick-dots li button::before{
+    color: #fff;
+    opacity: 1;
+}
+
+.slick-dots{
+    bottom: 25px !important;
+}
+
+.slick-prev{
+    left: 20px;
+    z-index: 11111;
+}
+
+.slick-next{
+    right: 20px;
+    z-index: 11111;
+}
